@@ -118,4 +118,4 @@ The `SignaturePad` view has custom Data Binding attribute setters for all the li
     See the License for the specific language governing permissions and
     limitations under the License.
 
-Modified and Redistributed only for used by FAARMis project, please see [NOTICE](https://github.com/faarmis/android-signaturepad/blob/master/README.md).
+Modified and Redistributed only for used by FAARMis project, please see [NOTICE](https://github.com/faarmis/android-signaturepad/blob/master/NOTICE).
