@@ -2,7 +2,7 @@ Android Signature Pad
 ====================
 [![Android CI](https://github.com/faarmis/android-signaturepad/actions/workflows/android.yml/badge.svg)](https://github.com/faarmis/android-signaturepad/actions/workflows/android.yml)
 
-> This project have been folked from [Gianluca, Android Signature Pad](https://github.com/gcacace/android-signaturepad) to review, modify and re-distribute in scope of FAARMis Projects.
+> This project have been folked from [Gianluca, Android Signature Pad](https://github.com/gcacace/android-signaturepad) to review, modify and re-distribute in scope of FAARMis Projects. Please refer to `upstream` one if you not working on FAARMis project
 
 Android Signature Pad is an Android library for drawing smooth signatures. It uses variable width Bézier curve interpolation based on [Smoother Signatures](http://corner.squareup.com/2012/07/smoother-signatures.html) post by [Square](https://squareup.com).
 
@@ -29,7 +29,7 @@ Open your `build.gradle` and make sure that Maven Central repository is declared
 ```
 Then, include the library as dependency:
 ```gradle
-implementation 'com.github.faarmis:android-signaturepad:1.3.1'
+implementation 'com.github.faarmis:android-signaturepad:1.3.2'
 ```
 
 ## Usage
@@ -104,7 +104,6 @@ The `SignaturePad` view has custom Data Binding attribute setters for all the li
 
 ## License
 
-    Copyright 2021 FAARMis
     Copyright 2014-2016 Gianluca Cacace
 
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -118,3 +117,5 @@ The `SignaturePad` view has custom Data Binding attribute setters for all the li
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+Modified and Redistributed only for used by FAARMis project, please see [NOTICE](https://github.com/faarmis/android-signaturepad/blob/master/README.md).
